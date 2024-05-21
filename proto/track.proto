@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+enum SegmentType {
+    STRAIGHT = 0;
+    CORNER = 1;
+}
+
+enum CornerDirection {
+    LEFT = 0;
+    RIGHT = 1;
+}
+
+
+message Segment {
+    SegmentType type = 1;
+
+    // Length in meters
+    // Straight fields
+    double length = 10;
+    // TODO: Add handling for accel event rolling start using this parameter
+    double startOffset = 11;
+
+    // Corner fields
+    // Radius in meters, angle in radians
+    double radius = 20;
+    double angle = 21;
+    CornerDirection direction = 22;
+}
+
+message Track {
+    string name = 1;
+
+    // Could use a repeated wrapped oneof with separate straight and
+    // corner messages, but that makes the python code more awkward
+    repeated Segment segment = 2;
+}

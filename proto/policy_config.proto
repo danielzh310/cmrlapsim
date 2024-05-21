@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+enum DrsPolicy {
+    CLOSED = 0;
+    OPEN = 1;
+    DYNAMIC_1 = 2;
+    DYNAMIC_2 = 3;
+    DYNAMIC_3 = 4;
+}
+
+message PolicyConfig {
+    // Simulation time step, s
+    double dt = 1;
+
+    // Maximum accumulator output power, W
+    double maxDischargePower = 2;
+    // Maximum accumulator input power, W
+    double maxRegenPower = 3;
+    // DRS Policy Conifg
+    DrsPolicy drsPolicy = 4;
+}

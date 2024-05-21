@@ -1,0 +1,83 @@
+syntax = "proto3";
+
+enum TireType {
+    R25B_18x7_5 = 0;
+}
+
+message TireConfig {
+    TireType tireType = 1;
+    double longKnockdown = 2;
+    double latKnockdown = 3;
+}
+
+enum MotorType {
+    AMK = 0;
+}
+
+enum CellType {
+    VTC6 = 0;
+    PouchCell52 = 1;
+}
+
+message AccumulatorConfig {
+    CellType cellType = 1;
+    double nSeries = 2;
+    double nParallel = 3;
+    double stateOfCharge = 4;
+}
+
+// TODO: Add more advanced powertrain configuration
+message PowertrainConfig {
+
+    AccumulatorConfig accumulatorConfig = 1;
+
+    TireConfig tireConfig = 10;
+
+    MotorType motorType = 20;
+    double frontRatio = 21;
+    double rearRatio = 22;
+    double inverterEff = 23;
+}
+
+message AeroConfig {
+    double AC_d = 1;
+    double AC_l = 2;
+    double dragHeight = 3;
+    double rearAeroFraction = 4;
+}
+
+message AeroConfigDrs {
+    double AC_d = 1;
+    double AC_l = 2;
+    double dragHeight = 3;
+    double rearAeroFraction = 4;
+}
+
+message MassProperties {
+    double vehicleMass = 1;
+    double driverMass = 2;
+    double cornerInertia = 3;
+    double yawInertia = 4;
+    double rearMassFraction = 5;
+    double cgHeight = 6;
+}
+
+message SuspensionConfig {
+    double wheelBase = 10;
+    double trackWidth = 11;
+    double rearRollStiffnessFraction = 12;
+}
+
+message VehicleConfig {
+
+    MassProperties massProperties = 1;
+
+    SuspensionConfig suspensionConfig = 2;    
+
+    PowertrainConfig powertrainConfig = 3;
+
+    AeroConfig aeroConfig = 4;
+
+    AeroConfigDrs aeroConfig_drs = 5;
+
+}

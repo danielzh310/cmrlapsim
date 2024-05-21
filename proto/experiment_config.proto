@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "proto/policy_config.proto";
+
+message Task {
+    string name = 1;
+    string trackPath = 2;
+    int64 nLaps = 3;
+
+    PolicyConfig policyConfig = 10;
+}
+
+message ExperimentConfig {
+    string name = 1;
+    string baseDir = 2;
+    string vehicleConfigPath = 3;
+    repeated Task task = 4;
+
+    // Filled automatically by lapsim
+    string gitSha = 5;
+}

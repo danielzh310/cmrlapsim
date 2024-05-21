@@ -1,0 +1,66 @@
+syntax = "proto3";
+import "proto/track.proto";
+
+
+enum ControlMode {
+    NONE = 0;
+    ACCELERATING = 1;
+    COASTING = 2;
+    BRAKING = 3;
+    CORNERING = 4;
+}
+
+message VehicleState {
+
+    double timestamp = 1;
+    // Longitudinal velocity, m/s
+    double velocity = 2;
+    // Longitudinal acceleration, m/s/s
+    double accel = 3;
+    // Total arc length displacement, m
+    double position = 4;
+
+    // Accumulator current, A
+    double current = 11;
+    // Accumulator loaded voltage, V
+    double voltage = 12;
+    // Momentary electrical power, W
+    double power = 13;
+    // State of charge as fraction of max usable energy
+    double stateOfCharge = 14;
+
+    // Momentary motor heat generation (all motors), W
+    double motorHeatTotal = 21;
+    // Momentary inverter heat generation, W
+    double inverterHeat = 22;
+    // Torque of each front motor, Nm
+    double frontMotorTorque = 23;
+    // Torque of each rear motor, Nm
+    double rearMotorTorque = 24;
+    // Speed of each front motor, rad/s
+    double frontMotorSpeed = 25;
+    // Speed of each rear motor, rad/s
+    double rearMotorSpeed = 26;
+
+    // Aerodynamic drag force, N
+    double dragForce = 31;
+    // Aerodynamic downforce, N
+    double downForce = 32;
+
+    // Specifies whether vehicle accelerating, coasting, braking, or cornering
+    ControlMode controlMode = 40;
+
+    // DRS mode for the car
+    bool drs = 41;
+
+    // Track information
+    // Segment number
+    double segmentNumber = 50;
+    // Segment Type
+    SegmentType segmentType = 51;
+}
+
+message VehicleStateLog {
+    repeated VehicleState vehicleState = 1;
+}
+
