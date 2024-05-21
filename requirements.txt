@@ -1,0 +1,12 @@
+argparse
+pytest-shutil
+numpy
+scipy
+matplotlib
+gitpython
+joblib
+google
+google-api-python-client
+pandas
+Pillow
+ezdxf
