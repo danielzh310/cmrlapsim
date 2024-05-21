@@ -1,0 +1,8 @@
+2019-08-29 23:20:24.791370
+Track: endurance_2012.csv
+nLaps: 19
+
+Investigating the effect of discharge power limit on endurance laptime.
+Used regen power limit of 60kW and 20e aero numbers.
+Cornering model very primitive.
+Load pickle for parameter details.
