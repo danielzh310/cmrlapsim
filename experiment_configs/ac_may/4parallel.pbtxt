@@ -1,0 +1,56 @@
+name: "AC Tests 4 Parallel"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/tmuskens"
+
+vehicleConfigPath: "vehicle_configs/22e.pbtxt"
+
+task {
+    name: "endurance"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 19
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 33000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+task {
+    name: "acceleration"
+    trackPath: "tracks/accel_2019.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.01
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: CLOSED
+    }
+}
+task {
+    name: "autocross"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: CLOSED
+    }
+}
+task {
+    name: "skidpad"
+    trackPath: "tracks/skidpad.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.01
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: CLOSED
+    }
+}

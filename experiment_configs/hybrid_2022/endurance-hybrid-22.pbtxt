@@ -1,0 +1,98 @@
+name: "endurance hybrid 2022"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/tmuskens"
+
+vehicleConfigPath: "vehicle_configs/22e-noaero.pbtxt"
+
+task {
+    name: "endurance hybrid 2022 35000kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 44
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 35000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance hybrid 2022 30000kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 44
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 30000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance hybrid 2022 25000kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 44
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 25000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance hybrid 2022 20000kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 44
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 20000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance hybrid 2022 15000kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 44
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 15000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance hybrid 2022 10000kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 44
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 10000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance hybrid 2022 5000kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 44
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 5000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}

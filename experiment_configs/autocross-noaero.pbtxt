@@ -1,0 +1,20 @@
+name: "22e No Aero Autocross Testing"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/tmuskens"
+
+vehicleConfigPath: "vehicle_configs/22e-noaero.pbtxt"
+
+task {
+    name: "autocross no aero"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 77000
+        maxRegenPower: 6000
+        drsPolicy: CLOSED
+    }
+}

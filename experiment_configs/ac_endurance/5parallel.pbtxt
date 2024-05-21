@@ -1,0 +1,46 @@
+name: "AC Endruance Tests 5p"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/tmuskens"
+
+vehicleConfigPath: "vehicle_configs/22e-5parallel-heavy.pbtxt"
+
+task {
+    name: "endurance 60kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 19
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 60000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance 50kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 19
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 50000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "endurance 40kW"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 19
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 40000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}

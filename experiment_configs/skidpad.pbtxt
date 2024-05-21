@@ -1,0 +1,20 @@
+name: "20210119_full_event"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/asaaldal"
+
+vehicleConfigPath: "vehicle_configs/22e-noaero.pbtxt"
+
+task {
+    name: "skidpad"
+    trackPath: "tracks/skidpad.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.01
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: CLOSED
+    }
+}

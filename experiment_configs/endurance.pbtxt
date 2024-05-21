@@ -1,0 +1,20 @@
+name: "20210925_endurance"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/tmuskens"
+
+vehicleConfigPath: "vehicle_configs/example.pbtxt"
+
+task {
+    name: "endurance"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 19
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 33000
+        maxRegenPower: 60000
+        drsPolicy: CLOSED
+    }
+}

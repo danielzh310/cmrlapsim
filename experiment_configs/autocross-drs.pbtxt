@@ -1,0 +1,61 @@
+name: "22e Autocross DRS Testing"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/tmuskens"
+
+vehicleConfigPath: "vehicle_configs/22e.pbtxt"
+
+task {
+    name: "autocross drs dynamic"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: DYNAMIC_1
+    }
+}
+
+task {
+    name: "autocross drs closed"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: CLOSED
+    }
+}
+
+task {
+    name: "autocross drs open"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: OPEN
+    }
+}
+
+task {
+    name: "autocross drs dynamic 2"
+    trackPath: "tracks/endurance_2012.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.05
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: DYNAMIC_2
+    }
+}
+
+

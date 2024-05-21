@@ -1,0 +1,20 @@
+name: "FH-400"
+
+# Outside repo. Git isn't well suited for this sort of
+# thing. We can sync to a google drive folder.
+baseDir: "../lapsim_results/tmuskens"
+
+vehicleConfigPath: "vehicle_configs/20e.pbtxt"
+
+task {
+    name: "400m"
+    trackPath: "tracks/400m.pbtxt"
+    nLaps: 1
+
+    policyConfig {
+        dt: 0.01
+        maxDischargePower: 77000
+        maxRegenPower: 0
+        drsPolicy: CLOSED
+    }
+}
