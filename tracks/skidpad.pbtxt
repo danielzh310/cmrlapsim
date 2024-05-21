@@ -1,0 +1,7 @@
+name: "skidpad"
+segment {
+    type: CORNER
+    radius: 7
+    angle: 360
+}
+# Note: an actual skidpad run is simulated by 4 laps of this course.

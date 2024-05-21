@@ -1,0 +1,5 @@
+name: "accel_2019"
+segment {
+    type: STRAIGHT
+    length: 75
+}

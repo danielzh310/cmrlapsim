@@ -1,0 +1,5 @@
+name: "1km"
+segment {
+    type: STRAIGHT
+    length: 1000
+}

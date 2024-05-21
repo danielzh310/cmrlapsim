@@ -1,0 +1,385 @@
+name: "autoX_2018"
+segment {
+  length: 43.51988925841229
+}
+segment {
+  type: CORNER
+  radius: 22.075718294907176
+  angle: 0.9920038424304547
+}
+segment {
+  length: 26.48582066056058
+}
+segment {
+  type: CORNER
+  radius: 53.74310597884006
+  angle: 0.2955146799875664
+  direction: RIGHT
+}
+segment {
+  length: 11.17087825950069
+}
+segment {
+  type: CORNER
+  radius: 23.61600384625348
+  angle: 0.819984465087698
+}
+segment {
+  length: 16.702605036974564
+}
+segment {
+  type: CORNER
+  radius: 22.80350580307828
+  angle: 0.7584725932523897
+  direction: RIGHT
+}
+segment {
+  length: 21.86918239426842
+}
+segment {
+  type: CORNER
+  radius: 26.205213187948146
+  angle: 0.886704221432955
+}
+segment {
+  type: CORNER
+  radius: 26.35087480272967
+  angle: 0.6007290378489223
+  direction: RIGHT
+}
+segment {
+  length: 18.43149973849268
+}
+segment {
+  type: CORNER
+  radius: 56.99420434365436
+  angle: 0.28953060318155577
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 37.56874238062201
+  angle: 0.7513692267737602
+}
+segment {
+  type: CORNER
+  radius: 52.335641590500416
+  angle: 0.6240490518494929
+  direction: RIGHT
+}
+segment {
+  length: 38.840537661264385
+}
+segment {
+  type: CORNER
+  radius: 38.23993421166389
+  angle: 1.7635315792098791
+  direction: RIGHT
+}
+segment {
+  length: 30.618160706550103
+}
+segment {
+  type: CORNER
+  radius: 34.49432894419681
+  angle: 0.7373746138962058
+  direction: RIGHT
+}
+segment {
+  length: 34.55941804262642
+}
+segment {
+  type: CORNER
+  radius: 14.627404010829412
+  angle: 1.2768489276597057
+}
+segment {
+  type: CORNER
+  radius: 7.672342016807231
+  angle: 1.2999252893838347
+}
+segment {
+  length: 43.52323684179278
+}
+segment {
+  type: CORNER
+  radius: 24.22435365941282
+  angle: 2.0109193172771316
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 127.69326968524746
+  angle: 0.45298950767798196
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 31.65785531587997
+  angle: 1.1874788187480223
+}
+segment {
+  type: CORNER
+  radius: 16.36858850802727
+  angle: 1.2267031995251307
+}
+segment {
+  length: 51.63879777308941
+}
+segment {
+  type: CORNER
+  radius: 55.57145860476308
+  angle: 2.5406505313029433
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 125.55442219646969
+  angle: 0.48859997417352563
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 55.575756766852614
+  angle: 0.32582096132169647
+}
+segment {
+  length: 14.80888661339334
+}
+segment {
+  type: CORNER
+  radius: 40.96123163110904
+  angle: 0.6317908614769383
+  direction: RIGHT
+}
+segment {
+  length: 16.562497386969422
+}
+segment {
+  type: CORNER
+  radius: 12.749579662222521
+  angle: 0.8414161546772948
+}
+segment {
+  length: 16.28152902781953
+}
+segment {
+  type: CORNER
+  radius: 19.35793686684472
+  angle: 0.8212379128135763
+  direction: RIGHT
+}
+segment {
+  length: 27.98768879175271
+}
+segment {
+  type: CORNER
+  radius: 41.31217207278122
+  angle: 0.499397731614835
+}
+segment {
+  length: 146.32051732224397
+}
+segment {
+  type: CORNER
+  radius: 21.754947663707767
+  angle: 0.8030888497296158
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 8.781544350200694
+  angle: 2.152304711677353
+  direction: RIGHT
+}
+segment {
+  length: 20.872776254051033
+}
+segment {
+  type: CORNER
+  radius: 54.19099750056942
+  angle: 0.20563940147966897
+  direction: RIGHT
+}
+segment {
+  length: 41.46789994852448
+}
+segment {
+  type: CORNER
+  radius: 245.75632089690075
+  angle: 0.11265368754538674
+}
+segment {
+  length: 104.29040050693028
+}
+segment {
+  type: CORNER
+  radius: 38.510535331391715
+  angle: 0.7118814425777611
+}
+segment {
+  type: CORNER
+  radius: 16.748440817472016
+  angle: 2.2423864411416705
+}
+segment {
+  length: 19.543929718946526
+}
+segment {
+  type: CORNER
+  radius: 89.62004549713268
+  angle: 0.15955474529142166
+}
+segment {
+  type: CORNER
+  radius: 88.18858538714181
+  angle: 0.3759900694425822
+  direction: RIGHT
+}
+segment {
+  length: 12.814221171070649
+}
+segment {
+  type: CORNER
+  radius: 25.050949899950837
+  angle: 1.0159357210940159
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 38.952385612317386
+  angle: 0.8013001683733401
+  direction: RIGHT
+}
+segment {
+  length: 30.37844902900187
+}
+segment {
+  type: CORNER
+  radius: 131.84285838381592
+  angle: 0.618007598182662
+}
+segment {
+  type: CORNER
+  radius: 83.81689228759979
+  angle: 0.7858808954050952
+}
+segment {
+  type: CORNER
+  radius: 83.81689228760135
+  angle: 0.6997945692891269
+}
+segment {
+  type: CORNER
+  radius: 92.92621237793774
+  angle: 1.231144159037172
+}
+segment {
+  type: CORNER
+  radius: 35.114841133999484
+  angle: 0.6492204502735732
+}
+segment {
+  length: 26.29759811640716
+}
+segment {
+  type: CORNER
+  radius: 32.190506130914905
+  angle: 0.436986768721757
+}
+segment {
+  length: 27.037119796597178
+}
+segment {
+  type: CORNER
+  radius: 39.7916447327291
+  angle: 1.1653868540285357
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 23.92331089516805
+  angle: 0.9269215692733495
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 58.42466882661303
+  angle: 0.45345188378563606
+  direction: RIGHT
+}
+segment {
+  length: 75.61826255444431
+}
+segment {
+  type: CORNER
+  radius: 19.336584062896055
+  angle: 2.0284725444301883
+  direction: RIGHT
+}
+segment {
+  length: 22.737122808928035
+}
+segment {
+  type: CORNER
+  radius: 19.450468825110185
+  angle: 1.5803545570309516
+}
+segment {
+  type: CORNER
+  radius: 19.886870903890383
+  angle: 1.382543130869648
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 30.14996684531317
+  angle: 1.3772674254479913
+}
+segment {
+  type: CORNER
+  radius: 19.582177870257713
+  angle: 1.4787049451042815
+  direction: RIGHT
+}
+segment {
+  length: 23.62490198511677
+}
+segment {
+  type: CORNER
+  radius: 21.88825594272521
+  angle: 1.5321126535890466
+}
+segment {
+  length: 17.820990612308368
+}
+segment {
+  type: CORNER
+  radius: 15.35338863818749
+  angle: 0.45184694930792624
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 82.97362006377622
+  angle: 0.42714753187895393
+  direction: RIGHT
+}
+segment {
+  length: 176.1381306703502
+}
+segment {
+  type: CORNER
+  radius: 83.54973864083001
+  angle: 0.7133079821741592
+  direction: RIGHT
+}
+segment {
+  type: CORNER
+  radius: 33.13319862692308
+  angle: 0.6723151005945878
+  direction: RIGHT
+}
+segment {
+  length: 120.7005227570764
+}

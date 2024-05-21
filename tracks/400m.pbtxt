@@ -1,0 +1,5 @@
+name: "400m"
+segment {
+    type: STRAIGHT
+    length: 400
+}
