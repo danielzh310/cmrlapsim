@@ -1,11 +1,5 @@
 # CMR-Sims
 
-## Branch Info
-
-`mingkai`
-
-For code refactoring and running tests on cylindrical cells (4p v. 5p) and pouch cells
-
 ## How to Run
 
 To install requirements: `pip3 install -r requirements.txt`
