@@ -1,0 +1,49 @@
+massProperties {
+    vehicleMass: 175
+    driverMass: 70
+    cornerInertia: 0.159
+    yawInertia: 127
+    rearMassFraction: 0.560
+    cgHeight: 0.3
+}
+
+suspensionConfig {
+    wheelBase: 1.55
+    trackWidth: 1.300
+    rearRollStiffnessFraction: 0.5
+}
+
+powertrainConfig {
+    accumulatorConfig {
+        cellType: VTC6
+        nSeries: 144
+        nParallel: 4
+        stateOfCharge: 1.0
+    }
+
+    motorType: AMK
+    frontRatio: 0
+    rearRatio: 4
+    inverterEff: 0.95
+
+    tireConfig {
+        tireType: R25B_18x7_5
+        # Knockdowns correlated from skidpad and accel data
+        longKnockdown: 0.6
+        latKnockdown: 0.47
+    }
+}
+
+aeroConfig {
+    AC_d: 1.1
+    AC_l: 2.44
+    dragHeight: 0.40
+    rearAeroFraction: 0.52
+}
+
+aeroConfig_drs {
+    AC_d: 0.88
+    AC_l: 2.06
+    dragHeight: 0.3
+    rearAeroFraction: 0.4
+}
