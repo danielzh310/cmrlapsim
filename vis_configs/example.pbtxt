@@ -1,0 +1,23 @@
+plot {
+    name: "Velocity"
+    parameter: "velocity"
+    colormap: "inferno"
+    subdivision: 1
+    thickness: 3
+}
+
+plot {
+    name: "Down Force"
+    parameter: "downForce"
+    colormap: "jet"
+    subdivision: 1
+    thickness: 3
+}
+
+plot {
+    name: "Current"
+    parameter: "current"
+    colormap: "viridis"
+    subdivision: 1
+    thickness: 3
+}
